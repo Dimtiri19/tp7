@@ -1,16 +1,17 @@
 from fraction import Fraction
 
 # Création de fractions
-fraction1 = Fraction(1, 2)
-fraction2 = Fraction(3, 4)
-fraction3 = Fraction(2, 3)
-print(fraction1, fraction2, fraction3)
+fraction1 = Fraction(1, 1)
+fraction2 = Fraction(1, 4)
+fraction3 = Fraction(2, 2)
+
+
 # Opérations avec les fractions
 sum_fraction = fraction1 + fraction2
 diff_fraction = fraction1 - fraction3
 prod_fraction = fraction2 * fraction3
 div_fraction = fraction1 / fraction2
-pow_fraction = fraction3 ** fraction1
+#pow_fraction = fraction3 ** fraction1
 
 # Affichage des résultats
 print(f"Sum: {sum_fraction}")
