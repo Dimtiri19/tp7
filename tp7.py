@@ -1,7 +1,7 @@
 from fraction import Fraction
 
 # Création de fractions
-fraction1 = Fraction(1, 1)
+fraction1 = Fraction(1, 2)
 fraction2 = Fraction(1, 4)
 fraction3 = Fraction(2, 2)
 
